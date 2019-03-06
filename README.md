@@ -28,4 +28,4 @@ The following libraries are used in the script:
   - Type "python planningAPIs.py"
   
 ### References
-You can find more details about the REST APIs (here)[https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/get_rest_api_versions_for_planning.html] and (here)[https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/get_applications.html] and finally (here)[https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/getting_api_versions_for_lcm_apis.html]
+You can find more details about the REST APIs [here](https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/get_rest_api_versions_for_planning.html) and [here](https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/get_applications.html) and finally [here](https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/prest/getting_api_versions_for_lcm_apis.html)
