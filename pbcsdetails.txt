@@ -1,0 +1,1 @@
+{'login':'<username>','pwd':'<password>','url':'<planning_url>','domain':'<domain_name>'}
