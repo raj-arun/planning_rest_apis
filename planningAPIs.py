@@ -24,9 +24,9 @@ def get_application_details():
 	try:
 		response = requests.get(rest_end_point,auth=HTTPBasicAuth(uname,password),headers = headers)
 		if response.status_code == 200:
-		json_data = json.loads(response.text)
-		for d in json_data["items"]:
-			print("Application Name : ", d['name'])
+			json_data = json.loads(response.text)
+			for d in json_data["items"]:
+				print("Application Name : ", d['name'])
 	except Exception as e:
 		print(e)
 	
@@ -37,7 +37,6 @@ def get_planning_api_version():
 		Input: None
 		Output: planning api version
 	'''
-
 	try:
 		response = requests.get(planning_url,auth=HTTPBasicAuth(uname,password),headers = headers)
 		if response.status_code == 200:
@@ -58,8 +57,7 @@ def get_migration_api_version():
 		Get the latest migration api version
 		Input: None
 		Output: migration api version
-	'''
-	
+	'''	
 	try:
 		response = requests.get(migration_url,auth=HTTPBasicAuth(uname,password),headers = headers)
 		if response.status_code == 200:
